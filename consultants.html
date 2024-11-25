@@ -91,6 +91,69 @@
             padding-left: 1rem;
             border-left: 4px solid #27ae60;
         }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            .benefit-card {
+                flex-direction: column;
+                padding: 1rem;
+            }
+            
+            .benefit-card img {
+                max-width: 100%;
+                margin-bottom: 1rem;
+            }
+            
+            nav {
+                padding: 0.5rem;
+            }
+            
+            nav a {
+                display: block;
+                margin: 0.5rem auto;
+                width: 80%;
+            }
+            
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            header {
+                padding: 1rem;
+            }
+            
+            .highlight {
+                font-size: 0.9rem;
+                display: block;
+                margin: 1rem auto;
+            }
+
+            .testimonial {
+                padding: 0.8rem;
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+            
+            .benefit-card {
+                margin-bottom: 1rem;
+            }
+            
+            .container {
+                padding: 0.5rem;
+            }
+
+            .testimonial {
+                margin: 0.8rem 0;
+            }
+        }
     </style>
 </head>
 <body>
